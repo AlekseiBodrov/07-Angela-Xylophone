@@ -13,6 +13,13 @@
 		D7E6BC702982642B005C008A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC6E2982642B005C008A /* Main.storyboard */; };
 		D7E6BC722982642D005C008A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC712982642D005C008A /* Assets.xcassets */; };
 		D7E6BC752982642D005C008A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC732982642D005C008A /* LaunchScreen.storyboard */; };
+		D7E6BC8429826CA0005C008A /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC7D29826C9F005C008A /* B.wav */; };
+		D7E6BC8529826CA0005C008A /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC7E29826C9F005C008A /* F.wav */; };
+		D7E6BC8629826CA0005C008A /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC7F29826C9F005C008A /* E.wav */; };
+		D7E6BC8729826CA0005C008A /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC8029826C9F005C008A /* G.wav */; };
+		D7E6BC8829826CA0005C008A /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC8129826CA0005C008A /* A.wav */; };
+		D7E6BC8929826CA0005C008A /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC8229826CA0005C008A /* C.wav */; };
+		D7E6BC8A29826CA0005C008A /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = D7E6BC8329826CA0005C008A /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +31,13 @@
 		D7E6BC712982642D005C008A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D7E6BC742982642D005C008A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D7E6BC762982642D005C008A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7E6BC7D29826C9F005C008A /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		D7E6BC7E29826C9F005C008A /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		D7E6BC7F29826C9F005C008A /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		D7E6BC8029826C9F005C008A /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		D7E6BC8129826CA0005C008A /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		D7E6BC8229826CA0005C008A /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		D7E6BC8329826CA0005C008A /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +77,23 @@
 				D7E6BC712982642D005C008A /* Assets.xcassets */,
 				D7E6BC732982642D005C008A /* LaunchScreen.storyboard */,
 				D7E6BC762982642D005C008A /* Info.plist */,
+				D7E6BC7C29826C8C005C008A /* Sounds */,
 			);
 			path = Xylophone;
+			sourceTree = "<group>";
+		};
+		D7E6BC7C29826C8C005C008A /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BC8129826CA0005C008A /* A.wav */,
+				D7E6BC7D29826C9F005C008A /* B.wav */,
+				D7E6BC8229826CA0005C008A /* C.wav */,
+				D7E6BC8329826CA0005C008A /* D.wav */,
+				D7E6BC7F29826C9F005C008A /* E.wav */,
+				D7E6BC7E29826C9F005C008A /* F.wav */,
+				D7E6BC8029826C9F005C008A /* G.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +154,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E6BC8629826CA0005C008A /* E.wav in Resources */,
 				D7E6BC752982642D005C008A /* LaunchScreen.storyboard in Resources */,
+				D7E6BC8829826CA0005C008A /* A.wav in Resources */,
+				D7E6BC8929826CA0005C008A /* C.wav in Resources */,
 				D7E6BC722982642D005C008A /* Assets.xcassets in Resources */,
 				D7E6BC702982642B005C008A /* Main.storyboard in Resources */,
+				D7E6BC8729826CA0005C008A /* G.wav in Resources */,
+				D7E6BC8A29826CA0005C008A /* D.wav in Resources */,
+				D7E6BC8529826CA0005C008A /* F.wav in Resources */,
+				D7E6BC8429826CA0005C008A /* B.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
