@@ -70,14 +70,10 @@
 		D7E6BC672982642B005C008A /* Xylophone */ = {
 			isa = PBXGroup;
 			children = (
-				D7E6BC682982642B005C008A /* AppDelegate.swift */,
-				D7E6BC6A2982642B005C008A /* SceneDelegate.swift */,
-				D7E6BC6C2982642B005C008A /* ViewController.swift */,
-				D7E6BC6E2982642B005C008A /* Main.storyboard */,
-				D7E6BC712982642D005C008A /* Assets.xcassets */,
-				D7E6BC732982642D005C008A /* LaunchScreen.storyboard */,
-				D7E6BC762982642D005C008A /* Info.plist */,
-				D7E6BC7C29826C8C005C008A /* Sounds */,
+				D7E6BC8E29827CB6005C008A /* Resources */,
+				D7E6BC8B29827C0F005C008A /* Application */,
+				D7E6BC8D29827C7C005C008A /* Controllers */,
+				D7E6BC8C29827C21005C008A /* SupportingFiles */,
 			);
 			path = Xylophone;
 			sourceTree = "<group>";
@@ -94,6 +90,42 @@
 				D7E6BC8029826C9F005C008A /* G.wav */,
 			);
 			path = Sounds;
+			sourceTree = "<group>";
+		};
+		D7E6BC8B29827C0F005C008A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BC682982642B005C008A /* AppDelegate.swift */,
+				D7E6BC6A2982642B005C008A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		D7E6BC8C29827C21005C008A /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BC6E2982642B005C008A /* Main.storyboard */,
+				D7E6BC712982642D005C008A /* Assets.xcassets */,
+				D7E6BC732982642D005C008A /* LaunchScreen.storyboard */,
+				D7E6BC762982642D005C008A /* Info.plist */,
+			);
+			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		D7E6BC8D29827C7C005C008A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BC6C2982642B005C008A /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D7E6BC8E29827CB6005C008A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D7E6BC7C29826C8C005C008A /* Sounds */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -325,12 +357,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6CQH2T6SR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -339,9 +370,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pet.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -354,12 +388,11 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6CQH2T6SR;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Xylophone/Info.plist;
+				INFOPLIST_FILE = Xylophone/SupportingFiles/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -368,9 +401,12 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.pet.Xylophone;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
