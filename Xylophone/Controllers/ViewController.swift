@@ -8,6 +8,11 @@
 import UIKit
 import AVFoundation
 
+enum AudioFormat: String {
+    case wav
+    case mp3
+}
+
 final class ViewController: UIViewController {
 
     //MARK: - let\var
@@ -61,7 +66,7 @@ private extension ViewController {
     }
 
     func playSound(witn name: String) {
-        guard let path = Bundle.main.path(forResource: name, ofType:"wav") else {
+        guard let path = Bundle.main.path(forResource: name, ofType: AudioFormat.wav.rawValue) else {
             return }
         let url = URL(fileURLWithPath: path)
 
