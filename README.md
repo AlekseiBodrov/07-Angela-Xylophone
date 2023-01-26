@@ -9,4 +9,4 @@
 - Адаптивная верстка интерфейса **Storyboard + кодом**. Проверена на **iPhoneSE (3st generation)**
 
 ## <a id="Presentation"></a>Презентация
-![Презентация](./presentation/present.gif =600x400)
+<img src="https://github.com/AlekseiBodrov/Xylophone-Angela-/blob/main/presentation/present.gif" width="200">
